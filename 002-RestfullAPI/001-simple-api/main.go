@@ -1,8 +1,9 @@
 package main
 
 /*
-
 Creating a Simple RESTful API in Go
+
+using gorilla/mux
 */
 
 import (
