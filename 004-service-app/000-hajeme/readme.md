@@ -1,1 +1,1 @@
-hajem means (start) in japanese ^
+hajeme means (start) in japanese ^
