@@ -2,25 +2,25 @@ package main
 
 import "fmt"
 
-type foo struct{
+type foo struct {
 	//memory layout
-	flag bool
+	flag    bool
 	counter int16
-	pi float32
+	pi      float32
 }
 
 func main() {
 	fmt.Println("----")
 
 	//declare a variable of an anonymous type and init :: using a struct literal
-	anonymous := struct{
-		flag bool
+	anonymous := struct {
+		flag    bool
 		counter int16
-	    pi float32
+		pi      float32
 	}{
-		flag: true,
+		flag:    true,
 		counter: 100,
-		pi: 3.141592,
+		pi:      3.141592,
 	}
 
 	//create a value of type foo :: zero value
@@ -31,7 +31,7 @@ func main() {
 	f = anonymous
 
 	//print the values
-	fmt.Println("%+v\n",f)
-	fmt.Println("%+v\n",anonymous)
-	fmt.Println("flag",anonymous.flag)
+	fmt.Printf("%+v\n", f)
+	fmt.Printf("%+v\n", anonymous)
+	fmt.Println("flag", anonymous.flag)
 }
