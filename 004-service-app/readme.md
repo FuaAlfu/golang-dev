@@ -10,7 +10,6 @@ Supporting services like the database are hosted in Docker. If you cannot
 install Docker on your machine you can still follow most of this material by
 hosting a database elsewhere and modifying the connection information to your
 needs.
-
 ## Setup
 
 Clone your repository somewhere on your computer. The location does not
