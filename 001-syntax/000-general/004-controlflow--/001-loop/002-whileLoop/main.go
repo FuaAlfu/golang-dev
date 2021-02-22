@@ -3,7 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	//this is how to code while in Go..
+	/*
+		this is how to code while in Go..
+		not recommended
+	*/
 	x := 1
 	for x < 10 {
 		fmt.Println(x)
