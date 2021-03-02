@@ -10,7 +10,7 @@ func main() {
 
 	for {
 		fmt.Println("inside the infinite loop!")
-
+		println("will terminate after 9 seconds")
 		<-loopTimer.C
 		break
 	}

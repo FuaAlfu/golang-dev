@@ -2,8 +2,7 @@
 
     •Go-fiber : fiber pkg:
 		○ :link
-			[fiber](https://pkg.go.dev/github.com/gofiber/fiber)
-		
+			[fib		
 ---
 ## create go modules
 ```
