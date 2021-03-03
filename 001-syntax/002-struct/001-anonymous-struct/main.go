@@ -4,7 +4,8 @@ import "fmt"
 
 func main() {
 	//creating and constructing an anonymous struct
-	randomCar 		maker   string
+	randomCar := struct {
+		maker   string
 		model   string
 		color   string
 		mileage int
