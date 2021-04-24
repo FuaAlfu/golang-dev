@@ -80,8 +80,8 @@ func handleRequests() {
 	r := mux.NewRouter().StrictSlash(true)
 	r.HandleFunc("/", homePage)
 	r.HandleFunc("/games/{id}", allGames)
-	r.HandleFunc("/game", createNewGame).Methods("POST")
-	r.HandleFunc("/game/{id}", deleteGame).Methods("DELETE")
+	r.HandleFunc("/games/{id}", createNewGame).Methods("POST")
+	r.HandleFunc("/games/{id}", deleteGame).Methods("DELETE")
 	log.Fatal(http.ListenAndServe(":9090", r))
 }
 
