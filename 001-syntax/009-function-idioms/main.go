@@ -27,7 +27,7 @@ func main() {
 //return multaple values out of function , return value and the other state in the stame time
 func retriveUser(name string)(&user, error){
 	//make a call to get the user in json respone..
-	r, err := getUser()
+	r, err := getUser(name)
 	if err != nil{
 		return nil, err
 	}
@@ -36,7 +36,7 @@ func retriveUser(name string)(&user, error){
 	of the user struct type.
 	*/
 	var u user
-	err = json.Unmarshal([]byte(r), &u); err != nil{
+	if err := json.Unmarshal([]byte(r), &u); err != nil{
 	return nil, err
 }
 	return &u, nil
