@@ -21,5 +21,6 @@ func initializeRouter() {
 
 func main() {
 	fmt.Println("Hello")
+	initialMigration()
 	initializeRouter()
 }
