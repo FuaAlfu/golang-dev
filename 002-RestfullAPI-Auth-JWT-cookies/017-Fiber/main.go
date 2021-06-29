@@ -12,7 +12,7 @@ func homePage(c *fiber.Ctx) {
 }
 
 func handleRequest() {
-	//initialize
+	//initialize..
 	app := fiber.New()
 
 	app.Get("/", homePage)

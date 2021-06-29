@@ -4,11 +4,12 @@ pack: Fiber
 ---
 
 ## creating restful api using Fiber
-We will create arrestee API and go using guerrilla's mux package.
-and we will define endpoints for the restful API.
+We will create arrestee API and go using Fiber package.
+and we will define endpoints for the API.
 
-## about orm
-It stands for Object-Relational-Mapper and actually makes it easier to write code. right?! ^^
+## about Fiber
+If you are coming from another language, such node-js and trying your hand at developing Go applications then Fiber is an incredibly easy framework to start working with.
+It presents a familiar feel to Node.js developers who have previously built systems using Express.js. It’s also built on top of Fasthttp which is an incredibly performant and minimal HTTP engine built for Go.
 ---
 
 ## create modules
