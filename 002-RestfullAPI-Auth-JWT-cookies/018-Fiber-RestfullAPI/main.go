@@ -1,8 +1,10 @@
 package main
 
 import (
-	"github.com/FuaAlfu/golang-dev/002-RestfullAPI-Auth-JWT-cookies/018-Fiber-RestfullAPI/book"
+	"book"
+
 	"github.com/gofiber/fiber"
+
 )
 
 func main() {
