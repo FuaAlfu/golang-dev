@@ -1,0 +1,6 @@
+---
+stack: GO
+lang:
+---
+
+# file
